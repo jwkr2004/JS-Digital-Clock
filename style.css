@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+}
+
+.box {
+    border: 3px solid rgb(231, 146, 75);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    text-shadow: 1px 1px black;
+    margin: 30px;
+    margin-left: 43%;
+}
+
+#currentTime div {
+    display: flex;
+}
+
+#currentTime div div {
+    font-size: 1.8rem;
+    padding: 2px;
+    margin: 2px;
+}
+
+#currentTime div #ap {
+    margin-left: 10px;
+}
+
+#format {
+    width: 100%;
+    border: solid 2px white;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: rgb(231, 146, 75);
+    color: rgb(255, 255, 255);
+}
+
+#date {
+    display: flex;
+    align-items: center;
+}
+
+#calendar {
+    font-size: 2rem;
+}
+
+#comma {
+    margin-right: 5px;
+}
